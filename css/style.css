@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+
+
+.card{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card .contain{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(350px,1fr));
+    padding: 40px;
+}
+.card .contain .box1 h1 ,
+.card .contain .box2 h1,
+.card .contain .box3 h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+.card .contain .box1 p ,
+.card .contain .box2 p,
+.card .contain .box3 p{
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 50px 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.card .contain .box1 span, 
+.card .contain .box2 span,
+.card .contain .box3 span {
+    display: block;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 15px 25px;
+    width: fit-content;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background-color: hsla(0, 0%, 100%, 0.75) ;
+}
+.card .contain .box1 span{
+    color:hsl(31, 77%, 52%) ;
+}
+.card .contain .box2 span{
+    color: hsl(184, 100%, 22%);
+}
+.card .contain .box3 span{
+    color: hsl(179, 100%, 13%);
+}
+.card .contain .box1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+.card .contain .box2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+.card .contain .box3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
