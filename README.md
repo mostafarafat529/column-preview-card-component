@@ -1,0 +1,1 @@
+# column-preview-card-component
